@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pelican = "*"
+markdown = "*"
+pelican-markdown-image = "*"
+pelican-markdown-it-reader = "*"
+invoke = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
