@@ -6,8 +6,11 @@ SITENAME = 'fansonTop'
 SITEURL = ''
 
 PATH = 'content'
+ARTICLE_PATH = ['blogs']
+ARTICLE_SAVE_AS = '{date:%Y}/{slug}.html'
+ARTICLE_URL = '{date:%Y}/{slug}.html'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'Asia/Shanghai'
 
 DEFAULT_LANG = 'zh'
 
