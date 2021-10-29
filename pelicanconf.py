@@ -9,6 +9,7 @@ PATH = 'content'
 ARTICLE_PATH = ['blogs']
 ARTICLE_SAVE_AS = '{date:%Y}/{slug}.html'
 ARTICLE_URL = '{date:%Y}/{slug}.html'
+STATIC_PATHS = ['images']
 
 TIMEZONE = 'Asia/Shanghai'
 
